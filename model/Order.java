@@ -39,7 +39,7 @@ public class Order {
 	public void setId(Long id) {
 		this.id = id;
 	}
-	public Customer getCustomer() {
+	 public Customer getCustomer() {
 		return customer;
 	}
 	public void setCustomer(Customer customer) {
@@ -63,6 +63,5 @@ public class Order {
 	public void setStatus(String status) {
 		this.status = status;
 	}
-    
     
 }
